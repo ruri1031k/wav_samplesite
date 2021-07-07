@@ -1,0 +1,80 @@
+:root {
+	/* サイトで使用するカラー */
+	--baseColor: #313131;
+	--mainColor: #fff;
+	--accentColor1: #82cbca;
+	--accentColor2: #12a095;
+	--accentColor3: #b92c92;
+	--accentColor4: #ed6d00;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	font-family: 'mPlus1p-regular', sans-serif;
+	color: var(--mainColor);
+	line-height: 1.6;
+}
+
+/* フォントの設定 */
+@font-face {
+	font-family: 'smartFont';
+	src: url(../fonts/03SmartFontUI.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'mPlus1p-regular';
+	src: url(../fonts/MPLUS1p-Regular.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'mPlus1p-light';
+	src: url(../fonts/MPLUS1p-Light.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'opinionPro';
+	src: url(../fonts/Opinion\ Pro\ Light.otf);
+	font-weight: 300;
+}
+
+/* フォントサイズの設定 */
+.txt-xxxlarge {
+	font-size: 48px !important;
+}
+
+.txt-xxlarge {
+	font-size: 36px !important;
+}
+
+.txt-large {
+	font-size: 32px !important;
+}
+
+.txt-xxmedium {
+	font-size: 28px !important;
+}
+
+.txt-xmedium {
+	font-size: 24px !important;
+}
+
+.txt-medium {
+	font-size: 22px !important;
+}
+
+.txt-xsmall {
+	font-size: 20px !important;
+}
+
+.txt-xxsmall {
+	font-size: 18px !important;
+}
